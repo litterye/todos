@@ -1,0 +1,168 @@
+html,
+body {
+  list-style: none;
+}
+
+html .btnbox,
+body .btnbox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+html .btnbox button,
+body .btnbox button {
+  margin-left: 10px;
+}
+
+html .module,
+body .module {
+  position: absolute;
+  z-index: 99;
+}
+
+html .module .bg,
+body .module .bg {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html .module .bg .addbox,
+body .module .bg .addbox {
+  width: 80%;
+  height: 250px;
+  background: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+html .module .bg .addbox div,
+body .module .bg .addbox div {
+  text-align: center;
+}
+
+html .module .bg .addbox div input,
+html .module .bg .addbox div button,
+body .module .bg .addbox div input,
+body .module .bg .addbox div button {
+  display: inline-block;
+  width: 80%;
+  height: 30px;
+  margin-top: 20px;
+}
+
+html .module .bg .addbox div input,
+body .module .bg .addbox div input {
+  height: 80px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 1px solid #0894ec;
+}
+
+html .module .bg .addbox .content-block,
+body .module .bg .addbox .content-block {
+  margin: 0;
+}
+
+html .module .bg .wranbox,
+body .module .bg .wranbox {
+  width: 80%;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+}
+
+html .module .bg .wranbox p,
+body .module .bg .wranbox p {
+  width: 100%;
+  margin: 30px 0;
+}
+
+html .module .bg .wranbox div,
+body .module .bg .wranbox div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html .module .bg .wranbox div button,
+body .module .bg .wranbox div button {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+html .footer,
+body .footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: white;
+}
+
+html .footer div.circle,
+body .footer div.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+}
+
+html .footer .circle.circle-all,
+body .footer .circle.circle-all {
+  border: 1px solid goldenrod;
+  color: goldenrod;
+}
+
+html .footer .circle.circle-all.circle-choose,
+body .footer .circle.circle-all.circle-choose {
+  background: goldenrod;
+  color: white;
+}
+
+html .footer .circle.circle-finish,
+body .footer .circle.circle-finish {
+  border: 1px solid crimson;
+  color: crimson;
+}
+
+html .footer .circle.circle-finish.circle-choose,
+body .footer .circle.circle-finish.circle-choose {
+  background: crimson;
+  color: white;
+}
+
+html .footer .circle.circle-unfinish,
+body .footer .circle.circle-unfinish {
+  border: 1px solid purple;
+  color: purple;
+}
+
+html .footer .circle.circle-unfinish.circle-choose,
+body .footer .circle.circle-unfinish.circle-choose {
+  background: purple;
+  color: white;
+}
